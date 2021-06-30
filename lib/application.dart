@@ -1,6 +1,8 @@
 import 'dart:developer' as developer;
 import 'package:flutter/material.dart';
+import 'package:flutter_application/pages/movie_list.dart';
 import 'themes.dart';
+
 class Application extends StatefulWidget {
   static const ROUTE_NAME = 'Application';
   @override
@@ -13,7 +15,10 @@ class _ApplicationState extends State<Application> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: light(context),
-      darkTheme: dark(context),
+      // darkTheme: dark(context),
+      home: Scaffold(
+        body: MovieList(),
+      ),
     );
   }
 }

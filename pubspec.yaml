@@ -12,6 +12,7 @@ dependencies:
   flutter_bloc:
   tuple:
   freezed_annotation:
+  freezed:
   # JsonParser
   json_annotation:
   # Http Client
@@ -20,6 +21,10 @@ dependencies:
   flutter_svg:
   # Local Persist
   shared_preferences:
+
+  cupertino_icons:
+  rxdart:
+  http:
 
 dev_dependencies:
   flutter_test:
@@ -31,3 +36,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/icons/
+    - assets/images/
